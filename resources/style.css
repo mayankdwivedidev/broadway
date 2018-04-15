@@ -28,3 +28,11 @@ h3 {
 .font {
   font-size: 14px;
 }
+#design {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(images/building.png);
+
+}
