@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Broadway</title>
-    <link rel="stylesheet" href="./resources/style.css">
-  </head>
-  <body>
-    <!--Header section & Menu Items-->
-    <!--Used div class as header to apply font color as white in the entire header-->
-    <div class="header">
-      <h1>Broadway Design</h1>
-      <!--Used buttonnav class in anchor tags to apply white color and 18px font size-->
-        <p><a class="buttonnav"href="#">Home</a></p>
-        <p><a class="buttonnav"href="#">Process</a></p>
-        <p><a class="buttonnav"href="#">Work</a></p>
-        <p><a class="buttonnav"href="#">Team</a></p>
-        <p><a class="buttonnav"href="#">Contact</a></p>
-    </div>
-      <!--Process Section-->
-    <section>
-       <h2>Our Process</h2>
-        <img src="./resources/images/identify.svg" alt="indentify image">
-       <h3>identify</h3>
-       <!--Used font class in p elements to apply font size 14px-->
-       <p class="font">We focus on the most important details.</p>
-       <img src="./resources/images/understand.svg" alt="understand image">
-       <h3>Understand</h3>
-       <p class="font">We study our projects inside and out.</p>
-       <img src="./resources/images/execute.svg" alt="execute image">
-       <h3>Execute</h3>
-       <p class="font">We put everything we have into our work.</p>
-    </section>
-      <h3 id="design">Designed in New York</h3>
-  <section>
-      <h3>Portfolio</h3>
-      <p class="font">Coming Soon</p>
-      <h3>Team</h3>
-      <p class="font">We're Hiring!</p>
-      <h3>Contact</h3>
-      <p class="font">Phone:<a href="tel:555-555-1212"> 555-555-1212</a></p>
-      <p class="font">E-mail: <a href= "mailto: help@broadway.com"> help@broadway.com</a></p>
-      <p class="font"><a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Broadway</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<head>
+  <meta charset="utf-8">
+  <title>Broadway</title>
+  <link rel="stylesheet" href="./resources/style.css">
+</head>
+<body>
+  <!--Header section & Menu Items-->
+  <!--Used div class as header to apply font color as white in the entire header-->
+  <div class="header">
+    <h1>Broadway Design</h1>
+    <!--Used buttonnav class in anchor tags to apply white color and 18px font size-->
+    <p><a class="buttonnav"href="#">Home</a></p>
+    <p><a class="buttonnav"href="#process">Process</a></p>
+    <p><a class="buttonnav"href="#work">Work</a></p>
+    <p><a class="buttonnav"href="#team">Team</a></p>
+    <p><a class="buttonnav"href="#contact">Contact</a></p>
+  </div>
+  <!--Process Section-->
+  <!--process id to navigate to process section-->
+  <section id="process">
+    <h2>Our Process</h2>
+    <img src="./resources/images/identify.svg" alt="indentify image">
+    <h3>identify</h3>
+    <!--Used font class in p elements to apply font size 14px-->
+    <p class="font">We focus on the most important details.</p>
+    <img src="./resources/images/understand.svg" alt="understand image">
+    <h3>Understand</h3>
+    <p class="font">We study our projects inside and out.</p>
+    <img src="./resources/images/execute.svg" alt="execute image">
+    <h3>Execute</h3>
+    <p class="font">We put everything we have into our work.</p>
   </section>
-  </body>
+  <!--design id to layout changes specific to this h3 element-->
+  <h3 id="design">Designed in New York</h3>
+  <!--work id to navigate to portifolio section from the menu bar at the top-->
+  <h3 id="work">Portfolio</h3>
+  <p class="font">Coming Soon</p>
+  <!--work id to navigate to team section from the menu bar at the top-->
+  <h3 id="team">Team</h3>
+  <p class="font">We're Hiring!</p>
+  <!--contact id to navigate to contact section from the menu bar at the top-->
+  <h3 id="contact">Contact</h3>
+  <p class="font">Phone:<a href="tel:555-555-1212"> 555-555-1212</a></p>
+  <p class="font">E-mail: <a href= "mailto: help@broadway.com"> help@broadway.com</a></p>
+  <p class="font"><a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Broadway</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+</body>
 </html>
