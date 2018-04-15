@@ -34,5 +34,17 @@ h3 {
   font-weight: bold;
   color: white;
   background-image: url(images/building.png);
+}
+.footer {
+  background-color: dimgray;
+  text-align: left;
+  color: white;
 
+}
+#footerlogo {
+font-size: 11px;
+}
+.footermenu {
+  font-size: 18px;
+  color: white;
 }
