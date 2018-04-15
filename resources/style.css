@@ -1,0 +1,19 @@
+
+body {
+  text-align: center;
+  font-family: Helvetica;
+}
+.header {
+  color: white;
+}
+.buttonnav {
+  color: white;
+  font-size: 18px;
+}
+.header {
+  background-image: url(images/building.png);
+}
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
